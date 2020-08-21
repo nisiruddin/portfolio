@@ -1,0 +1,132 @@
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	position: relative;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+hr{
+	width: 50px;
+	height: 3px;
+	background: #F4623A;
+}
+
+#about hr{
+	background: #fff;
+}
+
+#header{
+	background: linear-gradient(rgba(92, 77, 66, 0.8),rgba(92, 77, 66, 0.8)),url(img/header-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.logo{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 30px;
+}
+
+.logo:hover{
+	color: rgba(255, 255, 255, 1);
+}
+
+.nav li{
+	margin-right: 25px;
+}
+
+.nav li a{
+	color: rgba(255, 255, 255, 0.7);
+	transition: 0.5s;
+}
+
+.nav li a:hover{
+	color: #F4623A;
+}
+
+.hero-section{
+	padding: 130px 50px;
+}
+
+.little-description{
+	padding: 30px 150px;
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 20px;
+}
+
+.btn-hire{
+	padding: 15px 60px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f4623a;
+	border-radius: 50px;
+}
+
+.btn-hire:hover{
+	background: #f24516;
+	color: #fff;
+}
+
+#about{
+	background: #F4623A;
+}
+
+#about .card{
+	width: 70%;
+	left: 15%;
+	background: transparent;
+	border: none;
+}
+
+.progress{
+	height: 8px;
+}
+.progress-bar{
+	background: #2bae66ff;
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #F4623A;
+}
+
+.sticky{
+	background: #fff;
+	transition: 0.9s;
+}
+
+.sticky .nav a,.sticky .logo{
+	color: #000;
+}
+
+.active{
+	color: #000;
+}
